@@ -2,6 +2,18 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -28,15 +40,18 @@
           </form>
         </h1>
 
-        <h2 id="current-city"><strong>Boston</strong></h2>
+        <h2 class="current-city" id="current-city"><strong>Boston</strong></h2>
 
-        <p id="current-date">
-          Sunday 8:03, scattered clouds
+        <p id="current-date">Sunday 8:03</p>
+        <span
+          >scattered clouds
           <br />
           humidity: 66%, wind: 14mph
-        </p>
+        </span>
+        <br />
         <span id="current-temperature-icon">⛅︎</span>
-        <span id="current-temperature">00</span>℉
+        <span class="current-temperature" id="current-temperature">00</span>℉
+        <br />
       </main>
       <f
         >This project was coded by
