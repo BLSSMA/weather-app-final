@@ -40,23 +40,21 @@
           </form>
         </h1>
 
-        <h2 class="current-city" id="current-city"><strong>Boston</strong></h2>
+        <h2 class="current-city" id="current-city"><strong></strong></h2>
 
-        <p id="current-date" class="current-date">Sunday 8:03</p>
+        <p id="current-date" class="current-date"></p>
         <span
-          >scattered clouds
+          ><span id="condition"></span>
           <br />
-          humidity:<span class="percentages">66%</span>, wind:<span
+          humidity:<span class="percentages" id="humidity"></span>, wind:<span
             class="percentages"
-            >14mph</span
-          >
+            id="wind"
+          ></span>
         </span>
         <br />
-        <div class="icon-temp">
-          <span class="current-temperature-icon" id="current-temperature-icon"
-            >⛅︎</span
-          >
-          <span class="current-temperature" id="current-temperature">00</span>℉
+        <div class="container">
+          <div id="icon"></div>
+          <span class="current-temperature" id="current-temperature"></span>℉
         </div>
         <br />
       </main>

@@ -40,8 +40,8 @@ background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237)
 .percentages{
     font-weight:bolder;
     color:crimson;
-    padding:20px 5px;
     font-size:20px;
+    padding:2px;
 }
 
 
@@ -55,18 +55,20 @@ font-family: "Quicksand", sans-serif;
     color:rgba(0, 0, 0, 0.464);
    
 }
+
 .current-temperature{
 font-family: "Schibsted Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-size: 68px;
-    display:inline-flex;
+
 }
 
-.current-temperature-icon{
-    display:inline-flex;
-    font-size: 68px;
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 a{
