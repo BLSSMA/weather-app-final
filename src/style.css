@@ -21,7 +21,7 @@ background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237)
 .search-button {
     background: #5dc2f1;
     padding: 15px 30px;
-    border: none;
+    border:1px solid white;
     font-size: 16px;
     margin-left: 5px;
     border-radius: 6px;
@@ -32,7 +32,7 @@ background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237)
     background-color: #f9f7fe;
     border: none;
     border-radius: 6px;
-    max-width: 300px;
+    width: 300px;
     font-size: 16px;
     padding: 15px 20px;
 }
@@ -43,7 +43,6 @@ background: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237)
     font-size:20px;
     padding:2px;
 }
-
 
 
 f{
